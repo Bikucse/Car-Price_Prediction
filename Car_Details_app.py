@@ -29,10 +29,6 @@ owner=st.selectbox('owner',df['owner'].unique())
 btn=st.button('Predict car Price')
 
 if btn:
-    if km_driven>70000:
-        km_driven=1
-    else:
-        km_driven=0
     test1 = np.array([Brand,year,km_driven,fuel,seller_type,transmission,owner])
     test1 = test1.reshape([1,7])
 
