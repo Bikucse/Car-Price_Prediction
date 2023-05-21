@@ -1,2 +1,2 @@
-# Car-Price_Prediction
+# DataScienceCapstoneProjec
 Car-Price_Prediction using Streamlit and Pipeline
